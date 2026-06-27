@@ -1,0 +1,4 @@
+Fig 4A [biopsy_schematic]
+Fig 4B [biopsy_angiograms]
+Fig 4C [biopsy_tapestation]
+Fig 4E [framework_diagram]

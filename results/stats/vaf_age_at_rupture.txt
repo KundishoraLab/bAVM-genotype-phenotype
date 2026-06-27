@@ -1,0 +1,16 @@
+# Extended Data Fig. 7a — VAF × age-at-rupture (mirror of Fig. 1g) + prevalence-vs-timing
+Generated 2026-06-15
+
+## Q1: VAF × age-at-rupture (Variant-positive ruptured cohort)
+  Pooled (n=132):  slope = -2.34 y/%VAF (95% CI -4.01, -0.67); P = 0.00645; Spearman rho = -0.25, P = 0.00387
+  KRAS G12D (n=100):  slope = -1.56 y/%VAF (95% CI -3.37, +0.25); P = 0.0906
+  KRAS G12V (n=25):  slope = -4.97 y/%VAF (95% CI -10.72, +0.78); P = 0.087
+
+## Q2: prevalence-vs-timing side-by-side
+  Variant-positive: rupture prevalence = 42.5%, median age at rupture = 15.4 y, median age at presentation = 15.2 y
+  Panel-negative:    rupture prevalence = 52.3%, median age at rupture = 32.2 y, median age at presentation = 25.0 y
+
+Interpretation: similar prevalence (the WHO of rupture) coexists
+with a ~two-decade earlier median age at rupture (the WHEN). The
+rupture-prevalence forest in Fig 3d sums cumulative incidence at
+long follow-up; the rupture KM in Fig 2d shows the hazard shift.

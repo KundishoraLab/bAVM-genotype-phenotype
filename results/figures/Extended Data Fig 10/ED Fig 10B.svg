@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='237.60pt' height='218.88pt' viewBox='0 0 237.60 218.88'>
+<g class='svglite'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHwyMzcuNjB8MC4wMHwyMTguODg='>
+    <rect x='0.00' y='0.00' width='237.60' height='218.88' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHwyMzcuNjB8MC4wMHwyMTguODg=)'>
+<rect x='-0.000000000000032' y='0.000000000000028' width='237.60' height='218.88' style='stroke-width: 0.68; stroke: #FFFFFF; fill: #FFFFFF;' />
+</g>
+<defs>
+  <clipPath id='cpMjIuNDZ8MjMzLjYxfDIzLjg4fDE4NC44NA=='>
+    <rect x='22.46' y='23.88' width='211.16' height='160.96' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMjIuNDZ8MjMzLjYxfDIzLjg4fDE4NC44NA==)'>
+<rect x='22.46' y='23.88' width='211.16' height='160.96' style='stroke-width: 0.68; stroke: none; fill: #FFFFFF;' />
+<rect x='22.46' y='36.45' width='17.16' height='35.21' style='stroke-width: 0.68; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #D55E00;' />
+<rect x='39.62' y='36.45' width='166.45' height='35.21' style='stroke-width: 0.68; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF;' />
+<rect x='22.46' y='86.75' width='0.00' height='35.21' style='stroke-width: 0.68; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #D55E00;' />
+<rect x='22.46' y='86.75' width='152.73' height='35.21' style='stroke-width: 0.68; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF;' />
+<rect x='22.46' y='137.05' width='0.00' height='35.21' style='stroke-width: 0.68; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #D55E00;' />
+<rect x='22.46' y='137.05' width='118.41' height='35.21' style='stroke-width: 0.68; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF;' />
+</g>
+<g clip-path='url(#cpMC4wMHwyMzcuNjB8MC4wMHwyMTguODg=)'>
+<polyline points='22.46,184.84 22.46,23.88 ' style='stroke-width: 0.68; stroke-linecap: square;' />
+<text x='19.32' y='156.81' text-anchor='end' style='font-size: 6.00px; font-family: "Arial";'>UAB</text>
+<text x='19.32' y='106.51' text-anchor='end' style='font-size: 6.00px; font-family: "Arial";'>CHOP</text>
+<text x='19.32' y='56.21' text-anchor='end' style='font-size: 6.00px; font-family: "Arial";'>BCH</text>
+<polyline points='20.72,154.66 22.46,154.66 ' style='stroke-width: 0.68; stroke-linecap: butt;' />
+<polyline points='20.72,104.36 22.46,104.36 ' style='stroke-width: 0.68; stroke-linecap: butt;' />
+<polyline points='20.72,54.06 22.46,54.06 ' style='stroke-width: 0.68; stroke-linecap: butt;' />
+<polyline points='22.46,184.84 233.61,184.84 ' style='stroke-width: 0.68; stroke-linecap: square;' />
+<polyline points='22.46,186.58 22.46,184.84 ' style='stroke-width: 0.68; stroke-linecap: butt;' />
+<polyline points='73.94,186.58 73.94,184.84 ' style='stroke-width: 0.68; stroke-linecap: butt;' />
+<polyline points='125.42,186.58 125.42,184.84 ' style='stroke-width: 0.68; stroke-linecap: butt;' />
+<polyline points='176.90,186.58 176.90,184.84 ' style='stroke-width: 0.68; stroke-linecap: butt;' />
+<polyline points='228.38,186.58 228.38,184.84 ' style='stroke-width: 0.68; stroke-linecap: butt;' />
+<text x='22.46' y='192.28' text-anchor='middle' style='font-size: 6.00px; font-family: "Arial";'>0</text>
+<text x='73.94' y='192.28' text-anchor='middle' style='font-size: 6.00px; font-family: "Arial";'>30</text>
+<text x='125.42' y='192.28' text-anchor='middle' style='font-size: 6.00px; font-family: "Arial";'>60</text>
+<text x='176.90' y='192.28' text-anchor='middle' style='font-size: 6.00px; font-family: "Arial";'>90</text>
+<text x='228.38' y='192.28' text-anchor='middle' style='font-size: 6.00px; font-family: "Arial";'>120</text>
+<text x='128.04' y='200.30' text-anchor='middle' style='font-size: 7.00px; font-family: "Arial";'>Number of patients with imaging</text>
+<text x='128.04' y='207.86' text-anchor='middle' style='font-size: 7.00px; font-family: "Arial";'>assessed for venous outflow</text>
+<text x='128.04' y='215.42' text-anchor='middle' style='font-size: 7.00px; font-family: "Arial";'>stenosis</text>
+<rect x='84.18' y='1.99' width='87.71' height='14.91' style='stroke-width: 0.68; stroke: none; fill: #FFFFFF;' />
+<rect x='87.67' y='5.48' width='7.94' height='7.94' style='stroke-width: 0.68; stroke: none; fill: #FFFFFF;' />
+<rect x='88.12' y='5.93' width='7.04' height='7.04' style='stroke-width: 0.68; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF;' />
+<rect x='133.95' y='5.48' width='7.94' height='7.94' style='stroke-width: 0.68; stroke: none; fill: #FFFFFF;' />
+<rect x='134.40' y='5.93' width='7.04' height='7.04' style='stroke-width: 0.68; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #D55E00;' />
+<text x='99.09' y='11.60' style='font-size: 6.00px; font-family: "Arial";'>No stenosis</text>
+<text x='145.38' y='11.60' style='font-size: 6.00px; font-family: "Arial";'>Stenosis</text>
+</g>
+</g>
+</svg>

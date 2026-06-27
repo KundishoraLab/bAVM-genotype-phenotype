@@ -1,0 +1,25 @@
+# Extended Data Fig. 6a — Rare variants (Other KRAS + BRAF V600E) vs. Negative
+Generated 2026-06-13
+n = 173  |  Log-rank p = 7.17e-05
+
+## Per-stratum summary
+                      records n.max n.start events    rmean se(rmean) median
+rare_group=Other KRAS      17    17      17     17 16.74529  2.714723  13.83
+rare_group=BRAF V600E       3     3       3      3 18.99667  4.027959  17.99
+rare_group=Negative       153   153     153    153 31.15458  1.550062  25.00
+                      0.95LCL 0.95UCL
+rare_group=Other KRAS   10.00   17.36
+rare_group=BRAF V600E   11.00      NA
+rare_group=Negative     19.75   36.00
+
+## Pairwise log-rank (Bonferroni)
+
+	Pairwise comparisons using Log-Rank test 
+
+data:  km3_df and rare_group 
+
+           Other KRAS BRAF V600E
+BRAF V600E 1.0        -         
+Negative   7.7e-05    0.5       
+
+P value adjustment method: bonferroni 

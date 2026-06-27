@@ -1,0 +1,132 @@
+# Extended Data Fig. 6b,c,d,e — KM analyses further stratified by sex
+Generated 2026-06-13
+
+## Extended Data Fig. 6b,c — Time to any clinical presentation
+Cohort n = 444 (Female 217, Male 227); everyone presents (event=1).
+
+### Female (n=217) — log-rank p = 7.49e-06
+                        records n.max n.start events    rmean se(rmean) median
+variant_group=KRAS G12D     109   109     109    109 19.25404  1.351516  13.27
+variant_group=KRAS G12V      27    27      27     27 26.37259  3.146699  18.57
+variant_group=Negative       81    81      81     81 31.67074  2.122862  27.00
+                        0.95LCL 0.95UCL
+variant_group=KRAS G12D   12.50   16.17
+variant_group=KRAS G12V   14.04   36.00
+variant_group=Negative    16.42   41.00
+
+### Male (n=227) — log-rank p = 0.000889
+                        records n.max n.start events    rmean se(rmean) median
+variant_group=KRAS G12D     121   121     121    121 20.10298  1.436717  15.00
+variant_group=KRAS G12V      34    34      34     34 27.57294  3.191743  20.84
+variant_group=Negative       72    72      72     72 30.57389  2.266544  25.00
+                        0.95LCL 0.95UCL
+variant_group=KRAS G12D   13.70   16.58
+variant_group=KRAS G12V   16.83   28.30
+variant_group=Negative    18.00   36.00
+
+### Cox PH — main effects (genotype + sex)
+                              coef exp(coef)   se(coef)          z     Pr(>|z|)
+variant_groupKRAS G12V -0.42632070 0.6529069 0.14466685 -2.9469135 3.209630e-03
+variant_groupNegative  -0.60111403 0.5482006 0.10644139 -5.6473712 1.629198e-08
+sex_fMale              -0.08571455 0.9178562 0.09615254 -0.8914434 3.726913e-01
+
+### Cox PH — with genotype × sex interaction
+                                        coef exp(coef)  se(coef)          z
+variant_groupKRAS G12V           -0.40804190 0.6649510 0.2153716 -1.8945951
+variant_groupNegative            -0.67479358 0.5092615 0.1482216 -4.5526004
+sex_fMale                        -0.13486341 0.8738353 0.1329941 -1.0140556
+variant_groupKRAS G12V:sex_fMale -0.02966412 0.9707715 0.2903074 -0.1021818
+variant_groupNegative:sex_fMale   0.15263187 1.1648961 0.2095525  0.7283704
+                                     Pr(>|z|)
+variant_groupKRAS G12V           5.814606e-02
+variant_groupNegative            5.298687e-06
+sex_fMale                        3.105562e-01
+variant_groupKRAS G12V:sex_fMale 9.186124e-01
+variant_groupNegative:sex_fMale  4.663869e-01
+
+LRT genotype × sex: Chisq = 0.634, df = 2, p = 0.728
+
+## Extended Data Fig. 6d,e — Time to rupture (Option 2a strict)
+Cohort n = 360 (events = 209).
+
+### Female (n=174, events=103) — log-rank p = 0.000272
+                        records n.max n.start events    rmean se(rmean) median
+variant_group=KRAS G12D      84    84      84     52 28.27050  2.565686  19.99
+variant_group=KRAS G12V      20    20      20      9 42.46433  4.866325  57.80
+variant_group=Negative       70    70      70     42 43.71769  2.593139  52.00
+                        0.95LCL 0.95UCL
+variant_group=KRAS G12D   16.22   31.00
+variant_group=KRAS G12V   36.00      NA
+variant_group=Negative    43.00   54.41
+
+### Male (n=186, events=106) — log-rank p = 0.526
+                        records n.max n.start events    rmean se(rmean) median
+variant_group=KRAS G12D      97    97      97     48 36.06827  3.558667   28.3
+variant_group=KRAS G12V      29    29      29     19 39.17744  4.558212   45.0
+variant_group=Negative       60    60      60     39 40.92224  3.062203   46.0
+                        0.95LCL 0.95UCL
+variant_group=KRAS G12D   20.42   46.00
+variant_group=KRAS G12V   23.00   65.00
+variant_group=Negative    29.39   58.09
+
+### Cox PH — main effects (genotype + sex + study + sample_type)
+                                    coef exp(coef)  se(coef)          z
+variant_groupKRAS G12V        -0.1769986 0.8377809 0.2248164 -0.7873031
+variant_groupNegative         -0.2961226 0.7436962 0.1628554 -1.8183169
+sex_fMale                     -0.1507794 0.8600374 0.1449199 -1.0404326
+study_cleanUAB                -1.4245315 0.2406212 0.3013912 -4.7265201
+study_cleanCHOP                0.3543760 1.4252910 0.2544881  1.3925051
+study_cleanNikolaev           -1.6176196 0.1983703 0.2896330 -5.5850665
+study_cleanPriemer            -1.5381481 0.2147785 0.4219669 -3.6451868
+study_cleanHong               -1.1832142 0.3062927 0.3752885 -3.1528120
+study_cleanGoss                       NA        NA 0.0000000         NA
+study_cleanGao                -1.7545230 0.1729897 0.3218308 -5.4516948
+sample_type_cleanFresh/Frozen -0.0980372 0.9066152 0.3838107 -0.2554311
+sample_type_cleanLiterature           NA        NA 0.0000000         NA
+                                  Pr(>|z|)
+variant_groupKRAS G12V        4.311045e-01
+variant_groupNegative         6.901572e-02
+sex_fMale                     2.981390e-01
+study_cleanUAB                2.284002e-06
+study_cleanCHOP               1.637695e-01
+study_cleanNikolaev           2.336109e-08
+study_cleanPriemer            2.671976e-04
+study_cleanHong               1.617059e-03
+study_cleanGoss                         NA
+study_cleanGao                4.989203e-08
+sample_type_cleanFresh/Frozen 7.983901e-01
+sample_type_cleanLiterature             NA
+
+### Cox PH — with genotype × sex interaction
+                                        coef exp(coef)  se(coef)           z
+variant_groupKRAS G12V           -0.45793963 0.6325857 0.3721931 -1.23038192
+variant_groupNegative            -0.51289570 0.5987592 0.2201948 -2.32928145
+sex_fMale                        -0.38285886 0.6819091 0.2067114 -1.85214206
+study_cleanUAB                   -1.47635606 0.2284687 0.3041751 -4.85363930
+study_cleanCHOP                   0.28787148 1.3335859 0.2586102  1.11314826
+study_cleanNikolaev              -1.64563140 0.1928907 0.2905725 -5.66341043
+study_cleanPriemer               -1.58790829 0.2043526 0.4235073 -3.74942372
+study_cleanHong                  -1.24963513 0.2866094 0.3785319 -3.30126788
+study_cleanGoss                           NA        NA 0.0000000          NA
+study_cleanGao                   -1.76217243 0.1716715 0.3231959 -5.45233513
+sample_type_cleanFresh/Frozen    -0.03861779 0.9621184 0.3861793 -0.09999962
+sample_type_cleanLiterature               NA        NA 0.0000000          NA
+variant_groupKRAS G12V:sex_fMale  0.46541191 1.5926701 0.4597788  1.01225169
+variant_groupNegative:sex_fMale   0.44747838 1.5643625 0.3076763  1.45438021
+                                     Pr(>|z|)
+variant_groupKRAS G12V           2.185541e-01
+variant_groupNegative            1.984416e-02
+sex_fMale                        6.400543e-02
+study_cleanUAB                   1.212161e-06
+study_cleanCHOP                  2.656448e-01
+study_cleanNikolaev              1.483936e-08
+study_cleanPriemer               1.772414e-04
+study_cleanHong                  9.624894e-04
+study_cleanGoss                            NA
+study_cleanGao                   4.971266e-08
+sample_type_cleanFresh/Frozen    9.203446e-01
+sample_type_cleanLiterature                NA
+variant_groupKRAS G12V:sex_fMale 3.114177e-01
+variant_groupNegative:sex_fMale  1.458409e-01
+
+LRT genotype × sex: Chisq = 2.483, df = 2, p = 0.289

@@ -1,0 +1,25 @@
+# Fig. 1d — Time to any clinical presentation
+Generated 2026-06-13
+n = 444  |  Overall log-rank p = 3.96e-08 (df = 2)
+
+## Per-stratum summary (median age at presentation)
+                        records n.max n.start events    rmean se(rmean) median
+variant_group=KRAS G12D     230   230     230    230 19.70065 0.9911176  14.40
+variant_group=KRAS G12V      61    61      61     61 27.04164 2.2606589  20.33
+variant_group=Negative      153   153     153    153 31.15458 1.5500623  25.00
+                        0.95LCL 0.95UCL
+variant_group=KRAS G12D   13.53   15.52
+variant_group=KRAS G12V   16.21   28.30
+variant_group=Negative    19.75   36.00
+
+## Pairwise log-rank (Bonferroni)
+
+	Pairwise comparisons using Log-Rank test 
+
+data:  km1_df and variant_group 
+
+          KRAS G12D KRAS G12V
+KRAS G12V 0.013     -        
+Negative  6.1e-08   0.770    
+
+P value adjustment method: bonferroni 

@@ -1,0 +1,21 @@
+# Venous outflow stenosis — supporting statistics (effect in Fig. 2e high-risk-feature forest; per-study ascertainment in Extended Data Fig. 10b)
+Generated 2026-06-13
+Total n = 265  |  Mut+ = 199  |  Neg = 66  |  Adjusted model n = 265
+
+## 2x2 table
+                  stenosis
+geno               No stenosis Stenosis
+  Panel-negative            66        0
+  Variant-positive         189       10
+
+## Effect sizes
+  Simple 2x2 + 0.5 continuity : OR = 7.37 (95% CI 0.43–127.50)
+  Firth, sample-type adjusted : OR = 6.88 (95% CI 0.87–886.94),  p = 0.0733
+
+## Per-study ascertainment (Supp Table 3 footnote source)
+# A tibble: 3 × 4
+  study no_stenosis stenosis total
+  <fct>       <int>    <int> <int>
+1 BCH            97       10   107
+2 CHOP           89        0    89
+3 UAB            69        0    69

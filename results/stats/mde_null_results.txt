@@ -1,0 +1,33 @@
+# Extended Data Fig. 10a — MDE audit for null-result outcomes
+Generated 2026-06-15
+Method: OR detectable at 80% power (Cohen's h via pwr.2p2n.test,
+uniroot on log-OR). Baseline rate p_ref taken from Panel-negative.
+
+# A tibble: 7 × 13
+  outcome                 variable                    n_pos n_neg p_neg_ref
+  <chr>                   <chr>                       <int> <int>     <dbl>
+1 Rupture (ever)          ever_ruptured_num             301   146   0.664  
+2 Deep venous drainage    sm_drainage_num               285   126   0.397  
+3 Eloquent brain location sm_eloquence_num              212    75   0.64   
+4 Intranidal aneurysm     intranidal_aneurysm_num       199    66   0.0909 
+5 Venous varix            venous_varix_num              201    66   0.0758 
+6 Venous outflow stenosis venous_outflow_stenosis_num   199    66   0.00746
+7 Flow-related aneurysm   flow_related_aneurysm_num     199    66   0.0606 
+  observed_or observed_lo observed_hi mde_or_80pct mde_inv_80pct
+        <dbl>       <dbl>       <dbl>        <dbl>         <dbl>
+1       0.890       0.587       1.35          1.89        0.528 
+2       0.860       0.559       1.32          1.83        0.547 
+3       0.522       0.303       0.898         2.35        0.426 
+4       1.24        0.481       3.21          3.06        0.327 
+5       1.27        0.456       3.56          3.27        0.306 
+6       7.37        0.426     128.           11.5         0.0873
+7       0.482       0.132       1.76          3.57        0.280 
+  rules_out_increase rules_out_decrease interpretation                    
+  <lgl>              <lgl>              <chr>                             
+1 TRUE               TRUE               Informative null (both sides)     
+2 TRUE               TRUE               Informative null (both sides)     
+3 TRUE               FALSE              Rules out meaningful increase only
+4 FALSE              TRUE               Rules out meaningful decrease only
+5 FALSE              TRUE               Rules out meaningful decrease only
+6 FALSE              TRUE               Rules out meaningful decrease only
+7 TRUE               FALSE              Rules out meaningful increase only

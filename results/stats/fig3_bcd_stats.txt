@@ -1,0 +1,21 @@
+# Fig. 1e,g — age-density & VAF×age supporting statistics
+Generated 2026-06-13
+
+## Age density, Mut+ vs Negative (binary; panel dropped from final figure)
+n=465  |  median Mut+=15.2  median Neg=25.0  |  KW p=5.35e-09
+
+## Fig. 1e — Age density by variant (G12D / G12V / Negative)
+n=444  |  KW p=3.25e-10
+# A tibble: 3 × 4
+  variant_group   med     n density_at_med
+  <fct>         <dbl> <int>          <dbl>
+1 KRAS G12D      14.4   230         0.0563
+2 KRAS G12V      20.3    61         0.0263
+3 Negative       25     153         0.0144
+
+## Fig. 1g — VAF × age (G12D / G12V, variant-positive)
+n=286
+G12D slope = -1.29 yrs per %VAF (p=0.0177)
+G12V slope = -3.99 yrs per %VAF (p=0.0134)
+Interaction (slope × variant) p = 0.0779
+Spearman (pooled) rho = -0.13, p = 0.0344

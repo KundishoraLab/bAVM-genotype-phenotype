@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='475.20pt' height='100.80pt' viewBox='0 0 475.20 100.80'>
+<g class='svglite'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: none;'/>
+<defs>
+  <clipPath id='cpMC4wMHw0NzUuMjB8MC4wMHwxMDAuODA='>
+    <rect x='0.00' y='0.00' width='475.20' height='100.80' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw0NzUuMjB8MC4wMHwxMDAuODA=)'>
+<rect x='0.00' y='0.00' width='475.20' height='100.80' style='stroke-width: 0.00; stroke: none;' />
+</g>
+<defs>
+  <clipPath id='cpMTMuOTV8NDYxLjI1fDcuOTd8OTIuODM='>
+    <rect x='13.95' y='7.97' width='447.30' height='84.86' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMTMuOTV8NDYxLjI1fDcuOTd8OTIuODM=)'>
+<line x1='384.35' y1='72.22' x2='384.35' y2='28.14' style='stroke-width: 0.75; stroke: #737373; stroke-dasharray: 4.00,4.00; stroke-linecap: butt;' />
+<line x1='341.62' y1='72.66' x2='341.62' y2='71.52' style='stroke-width: 0.64; stroke: #999999; stroke-linecap: butt;' />
+<text x='341.62' y='79.99' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";'>  0.25  </text>
+<line x1='362.98' y1='72.66' x2='362.98' y2='71.52' style='stroke-width: 0.64; stroke: #999999; stroke-linecap: butt;' />
+<text x='362.98' y='79.99' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";'>  0.5  </text>
+<line x1='384.35' y1='72.66' x2='384.35' y2='71.52' style='stroke-width: 0.64; stroke: #999999; stroke-linecap: butt;' />
+<text x='384.35' y='79.99' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";'>  1  </text>
+<line x1='405.71' y1='72.66' x2='405.71' y2='71.52' style='stroke-width: 0.64; stroke: #999999; stroke-linecap: butt;' />
+<text x='405.71' y='79.99' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";'>  2  </text>
+<line x1='427.07' y1='72.66' x2='427.07' y2='71.52' style='stroke-width: 0.64; stroke: #999999; stroke-linecap: butt;' />
+<text x='427.07' y='79.99' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";'>  4  </text>
+<line x1='448.43' y1='72.66' x2='448.43' y2='71.52' style='stroke-width: 0.64; stroke: #999999; stroke-linecap: butt;' />
+<text x='448.43' y='79.99' text-anchor='middle' style='font-size: 5.69px; font-family: "Arial";'>  8  </text>
+<line x1='341.62' y1='72.22' x2='448.43' y2='72.22' style='stroke-width: 0.85; stroke: #999999; stroke-linecap: butt;' />
+<text x='395.03' y='87.59' text-anchor='middle' style='font-size: 5.99px; font-family: "Arial";'>Odds ratio (95% CI, log scale)</text>
+<line x1='358.99' y1='40.48' x2='388.72' y2='40.48' style='stroke-width: 1.71; stroke: #009E73; stroke-linecap: butt;' />
+<line x1='376.80' y1='59.88' x2='420.90' y2='59.88' style='stroke-width: 1.71; stroke: #009E73; stroke-linecap: butt;' />
+<line x1='358.99' y1='41.27' x2='358.99' y2='39.69' style='stroke-width: 1.71; stroke: #009E73; stroke-linecap: butt;' />
+<line x1='376.80' y1='60.67' x2='376.80' y2='59.08' style='stroke-width: 1.71; stroke: #009E73; stroke-linecap: butt;' />
+<line x1='388.72' y1='41.27' x2='388.72' y2='39.69' style='stroke-width: 1.71; stroke: #009E73; stroke-linecap: butt;' />
+<line x1='420.90' y1='60.67' x2='420.90' y2='59.08' style='stroke-width: 1.71; stroke: #009E73; stroke-linecap: butt;' />
+<polygon points='372.12,42.34 375.83,42.34 375.83,38.62 372.12,38.62 ' style='stroke-width: 0.52; stroke: none; fill: #009E73;' />
+<polygon points='397.61,60.67 399.19,60.67 399.19,59.09 397.61,59.09 ' style='stroke-width: 0.52; stroke: none; fill: #009E73;' />
+<text x='15.49' y='33.72' style='font-size: 6.50px; font-family: "Arial";'>KRAS-NonParietal</text>
+<text x='15.49' y='43.08' style='font-size: 6.50px; font-family: "Arial";'>vs rest</text>
+<text x='15.49' y='53.12' style='font-size: 6.50px; font-family: "Arial";'>KRAS-Parietal</text>
+<text x='15.49' y='62.48' style='font-size: 6.50px; font-family: "Arial";'>vs rest</text>
+<text x='15.49' y='47.03' style='font-size: 5.99px; font-family: "Arial";'>(excl. KRAS-Parietal)</text>
+<text x='15.49' y='66.43' style='font-size: 5.99px; font-family: "Arial";'>(excl. KRAS-NonParietal)</text>
+<text x='146.72' y='38.11' text-anchor='end' style='font-size: 5.69px; font-family: "Arial";'>357</text>
+<text x='146.72' y='57.51' text-anchor='end' style='font-size: 5.69px; font-family: "Arial";'>217</text>
+<text x='199.21' y='38.11' text-anchor='end' style='font-size: 5.69px; font-family: "Arial";'>0.171</text>
+<text x='199.21' y='57.51' text-anchor='end' style='font-size: 5.69px; font-family: "Arial";'>0.209</text>
+<text x='251.70' y='38.22' text-anchor='end' style='font-size: 5.99px; font-family: "Arial";'>0.71</text>
+<text x='251.70' y='57.61' text-anchor='end' style='font-size: 5.99px; font-family: "Arial";'>1.58</text>
+<text x='237.00' y='47.03' text-anchor='middle' style='font-size: 5.99px; font-family: "Arial";'>(0.44–1.15)</text>
+<text x='237.00' y='66.43' text-anchor='middle' style='font-size: 5.99px; font-family: "Arial";'>(0.78–3.27)</text>
+<text x='15.49' y='16.17' style='font-size: 5.99px; font-weight: bold; font-family: "Arial";'>Predictor</text>
+<text x='146.72' y='16.17' text-anchor='end' style='font-size: 5.99px; font-weight: bold; font-family: "Arial";'>N</text>
+<text x='199.21' y='16.17' text-anchor='end' style='font-size: 5.99px; font-weight: bold; font-family: "Arial";'>P</text>
+<text x='251.70' y='16.17' text-anchor='end' style='font-size: 5.99px; font-weight: bold; font-family: "Arial";'>OR</text>
+<line x1='13.95' y1='28.14' x2='461.25' y2='28.14' style='stroke-width: 0.85; stroke: #7F7F7F; stroke-linecap: butt;' />
+</g>
+<g clip-path='url(#cpMC4wMHw0NzUuMjB8MC4wMHwxMDAuODA=)'>
+</g>
+</g>
+</svg>
